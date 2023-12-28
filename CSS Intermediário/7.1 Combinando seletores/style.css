@@ -1,0 +1,23 @@
+/* Agrupando seletores */
+h1, h2 {
+    color: blueviolet;
+}
+
+/* Seletor pai/filho (filho direto)*/
+div > p {
+    color: firebrick;
+}
+
+/* Seletor ancentral/descendente*/
+.box li {
+    color: blue;
+}
+
+/* Encadeando seletores*/
+li.done {
+    color: seagreen;
+}
+
+ul p.done{
+    font-size: 0.5rem;
+}
